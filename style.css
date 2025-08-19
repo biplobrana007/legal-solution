@@ -1,0 +1,29 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.eb-garamond{
+  font-family: "EB Garamond";
+}
+/* font colors */
+.dark02{
+  color: rgba(65, 64, 64, 1);
+}
+.dark03{
+  color: rgba(112, 112, 112, 1);
+}
+.dark05{
+  color: rgba(207, 207, 207, 1);
+}
+.dark07{
+  color: rgba(243, 243, 243, 1);
+}
+
+/* bg colors */
+.primary-bg01{
+  background-color: rgba(182, 140, 90, 1);
+}
