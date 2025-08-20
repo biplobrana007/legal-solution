@@ -17,7 +17,7 @@
     <!-- main css -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="max-w-[1170px] mx-auto">
+  <body>
     <!-- header section -->
     <header class="mb-30">
       <nav
@@ -72,7 +72,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="max-w-[1170px] mx-auto">
       <!-- legal practice section -->
       <section class="legal-practice px-5 md:px-0 mb-30">
         <h2 class="dark02 text-[40px] font-extrabold eb-garamond text-center">
@@ -322,7 +322,9 @@
           <p
             class="poppins dark03 text-lg font-normal leading-[26px] text-center mt-5 mb-20 md:w-[60%] mx-auto"
           >
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
           </p>
         </div>
         <div class="flex flex-col md:flex-row gap-8">
@@ -384,7 +386,9 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-col justify-between flex-1 px-5 md:px-0 gap-5 md:gap-0">
+          <div
+            class="flex flex-col justify-between flex-1 px-5 md:px-0 gap-5 md:gap-0"
+          >
             <input
               type="text"
               name=""
@@ -421,5 +425,65 @@
         </div>
       </section>
     </main>
+    <!-- footer section -->
+    <footer class="bg-black">
+      <div class=" py-30 max-w-[1170px] mx-auto px-5 md:px-0 flex flex-col md:flex-row gap-15">
+        <div class="flex-1">
+          <img src="./images/logo.png" alt="" />
+          <p class="poppins dark05 text-lg font-normal leading-[26px] mt-5 ">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="">
+          <h3 class="eb-garamond text-2xl font-extrabold mb-10 text-white">
+            Usefull Link
+          </h3>
+          <ul class="poppins dark05 text-lg font-normal leading-[26px] flex flex-col gap-5">
+            <li><a href=""></a>Homes</li>
+            <li><a href=""></a>About Us</li>
+            <li><a href=""></a>Cases</li>
+            <li><a href=""></a>Blog</li>
+            <li><a href=""></a>Contact Us</li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <h3 class="eb-garamond text-2xl font-extrabold mb-10 text-white">Contact Now</h3>
+          <ul class="poppins dark05 text-lg font-normal leading-[26px] flex flex-col gap-5">
+            <li>
+              <h4>555 4th 5t NW, Washington</h4>
+              <h4>DC 20530, United States</h4>
+            </li>
+            <li>
+              <h4>+88 01750 000 000</h4>
+              <h4>+88 01750 000 000</h4>
+            </li>
+            <li>
+              <h4>info@gmail.com</h4>
+              <h4>info@gmail.com</h4>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <h3 class="eb-garamond text-2xl font-extrabold mb-10 text-white">Subscribe</h3>
+          <p class="poppins dark05 text-lg font-normal leading-[26px] mb-5">Subscribe for our latest & Articles. We Won't Give You Spam Mails</p>
+          <div class="flex items-center relative">
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Your Email"
+              class="poppins text-[16px] dark03 font-normal leading-[26px] p-5 bg-[#F3F3F3] rounded-lg  w-full"
+            />
+            <button
+              class=" primary-bg01 rounded-lg p-[12px] absolute right-0 h-full "
+            >
+              <img src="./images/Frame.png" alt="" class="bg-white rounded-[50%]">
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
